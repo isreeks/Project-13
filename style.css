@@ -154,6 +154,12 @@ nav .container{
 /* Feature */
 .feature{
     padding: 40px 0;
+    text-align: center;
+
+}
+
+.feature .container h2{
+    font-size: 30px;
 }
 
 .boxes{
@@ -169,7 +175,6 @@ nav .container{
 .box{
     margin:40px;
     padding-top: 20px;
-    text-align: center;
     box-shadow: 10px 10px 10px 5px #ccc;
     border-radius: 20px;
 }
