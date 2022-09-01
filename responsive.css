@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1200px) {
+    .image-content .left-section{
+        width: 50%;
+    }
+    .image-content .right-section{
+        width: 50%;
+    }
+    .image-content .right-section h2{
+        font-size: 25px;
+    }
+    .points-list h3{
+        font-size: 20px;
+    }
+    .sizebox{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    nav .container{
+        justify-content: space-between;
+    }
+    .menulist{
+        display: none;
+    }
+    .menuicon{
+        display: block;
+    }
+    .hero .right-section{
+        display: none;
+    }
+    .hero .left-section{
+        width: 100%;
+        text-align: center;
+    }
+
+  }
+
+  @media only screen and (max-width: 700px) {
+    .sizebox{
+        width: 100%;
+    }
+    
+    .image-content .left-section{
+        width: 100%;
+
+    }
+    .image-content .right-section{
+        width: 100%;
+    }
+   }
