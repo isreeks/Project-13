@@ -119,6 +119,10 @@ nav .container{
     padding: 20px 0;
 }
 
+.points-list{
+    position: relative;
+}
+
 .points-list h3{
     font-size: 25px;
 }
@@ -130,6 +134,9 @@ nav .container{
 }
 
 .orange-point::before {
+    position:absolute;
+    top: 20px;
+    left: -40px;
     font-weight: 900;
     content: "\f064 ";
     font-family: "Font Awesome 5 Free";
@@ -137,6 +144,9 @@ nav .container{
     color: orange;
 }
 .green-point::before {
+    position:absolute;
+    top: 20px;
+    left: -40px;
     font-weight: 900;
     content: "\f064 ";
     font-family: "Font Awesome 5 Free";
@@ -144,6 +154,9 @@ nav .container{
     color: green;
 }
 .blue-point::before {
+    position:absolute;
+    top: 20px;
+    left: -40px;
     font-weight: 900;
     content: "\f064 ";
     font-family: "Font Awesome 5 Free";
@@ -175,7 +188,7 @@ nav .container{
 .box{
     margin:40px;
     padding-top: 20px;
-    box-shadow: 10px 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 6px 4px #ccc;
     border-radius: 20px;
 }
 
